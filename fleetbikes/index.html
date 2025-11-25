@@ -293,64 +293,157 @@
   </section>
 
   <!-- FAQ SECTION -->
-  <section class="section faq-section">
+  <section class="section faq-section" id="faq">
     <h2 class="fade-element">Frequently Asked Questions</h2>
+    <p class="fade-element sub-desc">Everything you need to know about riding, paying, and staying safe with Fleet Bikes.</p>
     
     <div class="faq-container">
-      <div class="faq-item fade-element">
-        <div class="faq-question">
-          <h3>How do I sign up for Fleet Bikes?</h3>
-          <span class="faq-icon">+</span>
+      <article class="faq-category fade-element" aria-label="Using the Bikes">
+        <h3 class="faq-category__title">Using the Bikes</h3>
+
+        <div class="faq-item" data-faq-item>
+          <button class="faq-item__trigger" id="faq-trigger-1" aria-expanded="false" aria-controls="faq-panel-1">
+            <span class="faq-item__question">How do I sign up for Fleet Bikes?</span>
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__panel" id="faq-panel-1" role="region" aria-labelledby="faq-trigger-1" aria-hidden="true">
+            <p>Download the Fleet Bikes app, verify with your student ID email, add a payment method, and you can unlock your first ride in under two minutes.</p>
+          </div>
         </div>
-        <div class="faq-answer">
-          <p>Download the Fleet Bikes app from the App Store or Google Play, register with your student ID, and you're ready to ride! The whole process takes less than 2 minutes.</p>
+
+        <div class="faq-item" data-faq-item>
+          <button class="faq-item__trigger" id="faq-trigger-2" aria-expanded="false" aria-controls="faq-panel-2">
+            <span class="faq-item__question">Can I reserve a bike in advance?</span>
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__panel" id="faq-panel-2" role="region" aria-labelledby="faq-trigger-2" aria-hidden="true">
+            <p>Monthly and semester pass holders get a 15-minute reservation window. Casual riders are first-come-first-serve, but the app highlights docks with high availability.</p>
+          </div>
         </div>
-      </div>
-      
-      <div class="faq-item fade-element">
-        <div class="faq-question">
-          <h3>What if I damage a bike?</h3>
-          <span class="faq-icon">+</span>
+
+        <div class="faq-item" data-faq-item>
+          <button class="faq-item__trigger" id="faq-trigger-3" aria-expanded="false" aria-controls="faq-panel-3">
+            <span class="faq-item__question">How long can I keep a bike before returning it?</span>
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__panel" id="faq-panel-3" role="region" aria-labelledby="faq-trigger-3" aria-hidden="true">
+            <p>Each ride session includes 45 minutes of pedal time. Need longer? End the ride at a dock, wait 2 minutes, and unlock again so everyone gets a chance.</p>
+          </div>
         </div>
-        <div class="faq-answer">
-          <p>Report any damage through the app immediately. Normal wear and tear is covered, but significant damage may incur additional charges. We recommend taking photos before each ride.</p>
+
+        <div class="faq-item" data-faq-item>
+          <button class="faq-item__trigger" id="faq-trigger-4" aria-expanded="false" aria-controls="faq-panel-4">
+            <span class="faq-item__question">What happens if my destination station is full?</span>
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__panel" id="faq-panel-4" role="region" aria-labelledby="faq-trigger-4" aria-hidden="true">
+            <p>The app shows real-time dock capacity. If a station fills up, it automatically suggests two nearby docks with empty slots and pauses billing for the detour.</p>
+          </div>
         </div>
-      </div>
-      
-      <div class="faq-item fade-element">
-        <div class="faq-question">
-          <h3>Can I reserve a bike in advance?</h3>
-          <span class="faq-icon">+</span>
+      </article>
+
+      <article class="faq-category fade-element" aria-label="Tracking, Safety & Policies">
+        <h3 class="faq-category__title">Tracking, Safety & Policies</h3>
+
+        <div class="faq-item" data-faq-item>
+          <button class="faq-item__trigger" id="faq-trigger-5" aria-expanded="false" aria-controls="faq-panel-5">
+            <span class="faq-item__question">How does live bike tracking work?</span>
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__panel" id="faq-panel-5" role="region" aria-labelledby="faq-trigger-5" aria-hidden="true">
+            <p>Every Fleet Bike has GPS and Bluetooth beacons. Your ride history shows routes, distance, and calories while our ops team monitors anomalies for added safety.</p>
+          </div>
         </div>
-        <div class="faq-answer">
-          <p>Premium subscribers can reserve bikes up to 15 minutes in advance through the app. Casual riders operate on a first-come, first-served basis.</p>
+
+        <div class="faq-item" data-faq-item>
+          <button class="faq-item__trigger" id="faq-trigger-6" aria-expanded="false" aria-controls="faq-panel-6">
+            <span class="faq-item__question">Are helmets provided or required?</span>
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__panel" id="faq-panel-6" role="region" aria-labelledby="faq-trigger-6" aria-hidden="true">
+            <p>Helmets are strongly recommended. Bring your own or rent one at the Sports Complex kiosk. Riders without helmets may be denied participation during safety drives.</p>
+          </div>
         </div>
-      </div>
-      
-      <div class="faq-item fade-element">
-        <div class="faq-question">
-          <h3>What happens if no docking station is available?</h3>
-          <span class="faq-icon">+</span>
+
+        <div class="faq-item" data-faq-item>
+          <button class="faq-item__trigger" id="faq-trigger-7" aria-expanded="false" aria-controls="faq-panel-7">
+            <span class="faq-item__question">What if I damage or lose a bike?</span>
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__panel" id="faq-panel-7" role="region" aria-labelledby="faq-trigger-7" aria-hidden="true">
+            <p>Report issues in the app with photos. Minor wear is covered, but intentional damage or unreported loss may incur up to ₹2,500 plus replacement of accessories.</p>
+          </div>
         </div>
-        <div class="faq-answer">
-          <p>The app shows real-time availability at all stations. If your destination station is full, the app will suggest the nearest alternative station with available spots.</p>
+
+        <div class="faq-item" data-faq-item>
+          <button class="faq-item__trigger" id="faq-trigger-8" aria-expanded="false" aria-controls="faq-panel-8">
+            <span class="faq-item__question">What are the riding hours and penalties for late returns?</span>
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__panel" id="faq-panel-8" role="region" aria-labelledby="faq-trigger-8" aria-hidden="true">
+            <p>Docks run 24/7, but patrol support operates 6 AM – 11 PM. Holding a bike past 60 minutes adds ₹20 per 15-minute block to encourage quick returns.</p>
+          </div>
         </div>
-      </div>
-      
-      <div class="faq-item fade-element">
-        <div class="faq-question">
-          <h3>Are helmets provided?</h3>
-          <span class="faq-icon">+</span>
+
+        <div class="faq-item" data-faq-item>
+          <button class="faq-item__trigger" id="faq-trigger-9" aria-expanded="false" aria-controls="faq-panel-9">
+            <span class="faq-item__question">How is lost & found handled?</span>
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__panel" id="faq-panel-9" role="region" aria-labelledby="faq-trigger-9" aria-hidden="true">
+            <p>If you leave belongings in the basket, log a ticket within 2 hours. Our maintenance crew collects items during dock sweeps and stores them at the mobility desk.</p>
+          </div>
         </div>
-        <div class="faq-answer">
-          <p>While we encourage safe riding, helmets are not currently provided with bikes. We recommend bringing your own helmet for maximum safety.</p>
+      </article>
+
+      <article class="faq-category fade-element" aria-label="Payments & Support">
+        <h3 class="faq-category__title">Payments & Support</h3>
+
+        <div class="faq-item" data-faq-item>
+          <button class="faq-item__trigger" id="faq-trigger-10" aria-expanded="false" aria-controls="faq-panel-10">
+            <span class="faq-item__question">How do payments, refunds, and holds work?</span>
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__panel" id="faq-panel-10" role="region" aria-labelledby="faq-trigger-10" aria-hidden="true">
+            <p>We accept UPI, cards, and campus wallet. Unused ride credits are refundable within 7 days, and semester passes can be paused once per term for academic travel.</p>
+          </div>
         </div>
-      </div>
+
+        <div class="faq-item" data-faq-item>
+          <button class="faq-item__trigger" id="faq-trigger-11" aria-expanded="false" aria-controls="faq-panel-11">
+            <span class="faq-item__question">Do you offer student discounts or subsidies?</span>
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__panel" id="faq-panel-11" role="region" aria-labelledby="faq-trigger-11" aria-hidden="true">
+            <p>Yes! Clubs booking 10+ passes get 20% off, and students on financial aid can request a 50% subsidy through the Dean's office with proof of eligibility.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" data-faq-item>
+          <button class="faq-item__trigger" id="faq-trigger-12" aria-expanded="false" aria-controls="faq-panel-12">
+            <span class="faq-item__question">What if the app stops working mid-ride?</span>
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__panel" id="faq-panel-12" role="region" aria-labelledby="faq-trigger-12" aria-hidden="true">
+            <p>Enable Bluetooth and location, then relaunch the app. If the issue persists, call the hotline printed on the bike lock so support can remotely end the trip.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" data-faq-item>
+          <button class="faq-item__trigger" id="faq-trigger-13" aria-expanded="false" aria-controls="faq-panel-13">
+            <span class="faq-item__question">How can I reach support after hours?</span>
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__panel" id="faq-panel-13" role="region" aria-labelledby="faq-trigger-13" aria-hidden="true">
+            <p>Chat support is online 7 AM – 11 PM. Overnight, you can still submit a ticket—our system logs the bike location and a specialist replies by 7 AM.</p>
+          </div>
+        </div>
+      </article>
     </div>
   </section>
 
   <!-- CTA SECTION -->
-  <section class="section cta-section" id="contact">
+  <section class="section cta-section" id="cta">
     <div class="cta-content fade-element">
       <h2>Ready to Transform Your Campus Commute?</h2>
       <p>Join hundreds of students already riding smarter with Fleet Bikes</p>
@@ -358,6 +451,60 @@
         <button class="btn white">Download App</button>
         <button class="btn dark">Contact Us</button>
       </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+    <div class="contact-wrapper">
+      <div class="contact-info fade-element">
+        <h2 id="contact-title">Contact Fleet Support</h2>
+        <p class="contact-section__desc">Need a refund, lost a bike lock key, or want help onboarding your club? Send us a note and the campus mobility desk will respond within one business day.</p>
+        <ul class="contact-highlights" aria-label="Support highlights">
+          <li>Live chat 7 AM – 11 PM IST</li>
+          <li>Emergency hotline printed on each lock</li>
+          <li>Average first response time: 14 minutes</li>
+        </ul>
+      </div>
+
+      <form class="contact-form fade-element" id="contactForm" novalidate>
+        <div class="contact-form__grid">
+          <label class="contact-form__field" for="fullName">
+            <span>Full Name *</span>
+            <input type="text" id="fullName" name="fullName" placeholder="Priya Sharma" required>
+          </label>
+
+          <label class="contact-form__field" for="studentEmail">
+            <span>Student Email *</span>
+            <input type="email" id="studentEmail" name="studentEmail" placeholder="name@student.sgtuniversity.edu" required>
+          </label>
+
+          <label class="contact-form__field" for="phoneNumber">
+            <span>Phone Number (optional)</span>
+            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="+91 90000 00000" inputmode="tel">
+          </label>
+
+          <label class="contact-form__field" for="subject">
+            <span>Subject *</span>
+            <input type="text" id="subject" name="subject" placeholder="Refund for Semester Pass" required>
+          </label>
+        </div>
+
+        <label class="contact-form__field" for="message">
+          <span>Message *</span>
+          <textarea id="message" name="message" rows="5" placeholder="Share at least 10 characters so we can help faster." minlength="10" required></textarea>
+        </label>
+
+        <div class="contact-form__feedback" role="status" aria-live="polite">
+          <span class="contact-form__check" aria-hidden="true"></span>
+          <p class="contact-form__message" id="contactFeedback"></p>
+        </div>
+
+        <div class="contact-form__actions">
+          <button type="submit" class="btn white contact-form__submit">Send Message</button>
+          <button type="button" class="btn dark contact-form__download" data-admin-only="true" hidden>Download Submissions (.json)</button>
+        </div>
+      </form>
     </div>
   </section>
 
@@ -391,7 +538,7 @@
           <li><a href="#">Help Center</a></li>
           <li><a href="#">Terms of Service</a></li>
           <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
         </ul>
       </div>
       
@@ -408,6 +555,6 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
